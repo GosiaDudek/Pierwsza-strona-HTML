@@ -1,0 +1,317 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-image: url("images/tło3.jpg");
+    background-repeat:repeat-y;
+    background-size: cover;
+}
+#kontener
+{
+    width: 1004px;
+    margin: 0 auto;
+}
+/* górna część kontenera*/
+#górna_czesc_kontenera
+{
+    background-image: url("images/gid.png");
+    width: 994px;
+    height: 150px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+}
+img.logo
+{
+    border: 0px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+#kontakt_box
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 125%;
+}
+#kontakt_box a
+{
+    border-bottom: none;
+}
+a
+{
+    color: #697177;
+    text-decoration: none;
+}
+a:hover
+{
+    color: orangered;
+}
+
+/*MENU GÓRNE*/
+#gorne_menu
+{
+    position: absolute;
+    left: 170px;
+    bottom: -7px;
+}
+#wlasciwe_gorne_menu li
+{
+   list-style-type: none;
+   float: left;
+   border-right: 1px solid #6fbda6;
+}
+#wlasciwe_gorne_menu li a
+{
+   background-image: url("images/srodek_memu_gornego.png");
+   height: 40px;
+   display: inline-block;
+   float: left;
+   border-bottom: none;
+   padding: 0px 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 10px;
+   font-weight: bold;
+   color: white;
+      
+}
+#wlasciwe_gorne_menu li a:hover, #wlasciwe_gorne_menu li.aktualny a
+{
+background-image: url("images/srodek_menu_gornego_hover.png");
+color: #feffcb;
+   
+}
+span.link 
+{
+   display: block;
+   margin-top: 10px;
+}
+/*ŚRODKOWE MENU*/
+#srodkowe_menu
+{
+   background-image: url("images/srodkowe_menu.png");
+   width: 994px;
+   height: 40px;
+}
+#srodkowe_menu li{
+   list-style-type: none;
+   float: left;
+}
+#srodkowe_menu li a
+{
+   border-bottom: none;
+   color: #feffcb;
+   font-size: 13px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   font-style: italic;
+}
+#srodkowe_menu li span.link2{
+   display: block;
+   margin-top: 15px;
+}
+#srodkowe_menu #pierwszy_poziom{
+   margin-left: 70px;
+}
+#srodkowe_menu span.odstep{
+    display: inline-block;
+    margin: 12px 10px 0px 10px;
+    color: #feffcb;
+}
+#srodkowe_menu li a:hover{
+   color: black;
+}
+/*MENU ROZWIJANE*/
+#pierwszy_poziom li .drugi_poziom{
+display: none;
+}
+#pierwszy_poziom li:hover .drugi_poziom{
+   display:block;
+   width: 210px;
+}
+#pierwszy_poziom li .drugi_poziom li{
+   width: 150px;
+   text-align: left;
+}
+#pierwszy_poziom li{
+   position: relative;
+}
+#pierwszy_poziom li .drugi_poziom{
+   position: absolute;
+   top: 1.9em;
+   left: 0em;
+}
+#pierwszy_poziom > li{
+   height: 32px;
+}
+#pierwszy_poziom li .drugi_poziom{
+   background-color: #de5e97;
+   border-left: 4px solid #6fbda6;
+   border-bottom: 1px solid #6fbda6;
+   border-right: 1px solid #6fbda6;
+   opacity: 0.9;
+   filter: alpha(opacity=90);
+}
+#pierwszy_poziom li .drugi_poziom li{
+   margin-left: 30px;
+   border-top: 1px solid #6fbda6 ;
+}
+#pierwszy_poziom li .drugi_poziom li a{
+   display: block;
+   width: 150px;
+   margin-bottom: 5px;
+   padding-bottom: 5px;
+}
+#pierwszy_poziom li .drugi_poziom li a:hover{
+   background-color: #6fbda6;
+   padding-left: 20px;
+   margin-left: -20px;
+   padding-right: 20px;
+   margin-top: -1px;
+   border-top: 1px solid #6fbda6; 
+}
+#pierwszy_poziom li .drugi_poziom li a{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 10px;
+   font-style: normal;
+   font-weight: bold;
+}
+#pierwszy_poziom li .drugi_poziom li.pierwszy_element_menu{
+   margin-top: 10px;
+   /*ZAWARTOSC GŁÓWNA STRONY*/
+}
+#zawartosc {
+   width: 944px;
+   padding-right: 50px;
+}
+#gorna_czesc_zawartosci {
+   background-image: url("images/gorna_czesc_zawartosci.png");
+   width: 994px;
+   height: 40px;
+   
+}
+#srodkowa_czesc_zawartosci {
+background-image: url("images/srodkowa_czesc_zawartosci.png");
+width: 994px;
+background-repeat: repeat-y;
+}
+#dolna_czesc_zawartosci {
+background-image: url("images/dolna_czesc_zawartosci.png");
+width: 994px;
+height: 40px;
+}
+#tekst {
+text-align: justify;
+padding: 10px 50px;
+line-height: 140%;
+font-size: 12px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h1 {
+   font-size: 18px;
+   text-align: center;
+   color: #cd40a1;
+   margin-bottom: 22px;
+   font-family: Calibri, Tahoma, Arial;
+   font-style: italic;
+}
+p {
+   margin-bottom: 15px;
+}
+h3 {
+   margin-bottom: 15px;
+   color: #cd40a1;
+}
+#tekst ul {
+   margin: 20px;
+   margin-left: 110px;
+   list-style-image: url('images/cake.png');
+}
+#tekst li {
+   margin-bottom: 5px;
+}
+#zawartosc .boczny_tekst {
+   text-align: left;
+   float: right;
+   width: 150px;
+   margin: 10px 20px;
+   font-size: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: 1px dotted grey;
+   padding: 10px 15px;
+   background-image: url("images/tlo_boczne.png");
+}
+#zawartosc .obrazki {
+   float: right;
+   clear: right;
+}
+#zawartosc .obrazki img{
+   clear: right;
+   float: right;
+   margin-right: 25px;
+   margin-top: 25px;
+   cursor: pointer;
+   opacity: 0.6;
+   filter: alpha(opacity=60);
+/*DOLNA CZĘŚĆ STRONY*/
+}
+#dolna_czesc_strony {
+background-image: url("images/gid.png");
+    width: 994px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+#newsletter_icon {
+   float: left;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+#tekst_newsletter {
+   color: white;
+   text-align: left;
+   padding-top: 15px;
+}
+#naglowek_newsletter {
+   font-size: 15px;
+   font-family: "Comic sans MS", cursive, sans-serif;
+   font-weight: bold;
+}
+#form_newsletter {
+   margin-top: 10px;
+   font-size: 12px;
+}
+.input_text {
+   background-color: gray;
+   font-size: 12px;
+}
+.submit_button {
+   padding: 5px;
+   font-size: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   cursor: pointer;
+   border: 2px outset gray;
+}
+.submit_button:acive {
+   border: 2px inset gray;
+}
+.submit_button:hover {
+   color: coral;
+}
+#newsletter_info {
+   font-size: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 25px;
+   margin-top: 4px;
+}
+#copyright {
+   font-size: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-bottom: 10px;
+}
